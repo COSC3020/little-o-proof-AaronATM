@@ -22,10 +22,12 @@ Proof:
 
 Let $c$ be any positive integer, $n_0$ be any integer, and both $f(n)$ and $g(n)$ be any positive functions.
 
-Suppose that for all $n \ge n_0$, $f(n) < cg(n)$.
+Suppose that for all $n\ge n_0$, $f(n) < cg(n)$.
 
-By definition of little o notation, $f(n) \in o(g(n))$.
+By definition of little o notation, $f(n)\in o(g(n))$.
 
-To meet the definition of big O notation, there must exist positive constants $c$ and $n_0$ such that $0 \le f(n) \le cg(n)$ for all $n \ge n_0$. 
+To meet the definition of big O notation, there must exist positive constants $c$ and $n_0$ such that $0\le f(n)\le cg(n)$ for all $n\ge n_0$. 
 
-Thus, $f(n)$ meets the definition of big O notation, and $f(n) \in O(g(n))$.
+There does exist $c$ and $n_0$ such that $0\le f(n)\le cg(n)$ for all $n\ge n_0$.
+
+Thus, $f(n)$ meets the definition of big O notation, and $f(n)\in O(g(n))$.
